@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B91076819D6A7AD00025A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91076719D6A7AD00025A99 /* main.m */; };
+		1B91076B19D6A7AD00025A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91076A19D6A7AD00025A99 /* AppDelegate.m */; };
+		1B91076E19D6A7AD00025A99 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91076D19D6A7AD00025A99 /* GameScene.m */; };
+		1B91077019D6A7AD00025A99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B91076F19D6A7AD00025A99 /* GameScene.sks */; };
+		1B91077319D6A7AD00025A99 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91077219D6A7AD00025A99 /* GameViewController.m */; };
+		1B91077619D6A7AD00025A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B91077419D6A7AD00025A99 /* Main.storyboard */; };
+		1B91077819D6A7AE00025A99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B91077719D6A7AE00025A99 /* Images.xcassets */; };
+		1B91077B19D6A7AE00025A99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B91077919D6A7AE00025A99 /* LaunchScreen.xib */; };
+		1B91078719D6A7AE00025A99 /* GokiGameAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91078619D6A7AE00025A99 /* GokiGameAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B91078119D6A7AE00025A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B91075A19D6A7AD00025A99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B91076119D6A7AD00025A99;
+			remoteInfo = GokiGameApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B91076219D6A7AD00025A99 /* GokiGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GokiGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B91076619D6A7AD00025A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B91076719D6A7AD00025A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B91076919D6A7AD00025A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B91076A19D6A7AD00025A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B91076C19D6A7AD00025A99 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		1B91076D19D6A7AD00025A99 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		1B91076F19D6A7AD00025A99 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1B91077119D6A7AD00025A99 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1B91077219D6A7AD00025A99 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1B91077519D6A7AD00025A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B91077719D6A7AE00025A99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B91077A19D6A7AE00025A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B91078019D6A7AE00025A99 /* GokiGameAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GokiGameAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B91078519D6A7AE00025A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B91078619D6A7AE00025A99 /* GokiGameAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GokiGameAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B91075F19D6A7AD00025A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B91077D19D6A7AE00025A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B91075919D6A7AD00025A99 = {
+			isa = PBXGroup;
+			children = (
+				1B91076419D6A7AD00025A99 /* GokiGameApp */,
+				1B91078319D6A7AE00025A99 /* GokiGameAppTests */,
+				1B91076319D6A7AD00025A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B91076319D6A7AD00025A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B91076219D6A7AD00025A99 /* GokiGameApp.app */,
+				1B91078019D6A7AE00025A99 /* GokiGameAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B91076419D6A7AD00025A99 /* GokiGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				1B91076919D6A7AD00025A99 /* AppDelegate.h */,
+				1B91076A19D6A7AD00025A99 /* AppDelegate.m */,
+				1B91076C19D6A7AD00025A99 /* GameScene.h */,
+				1B91076D19D6A7AD00025A99 /* GameScene.m */,
+				1B91076F19D6A7AD00025A99 /* GameScene.sks */,
+				1B91077119D6A7AD00025A99 /* GameViewController.h */,
+				1B91077219D6A7AD00025A99 /* GameViewController.m */,
+				1B91077419D6A7AD00025A99 /* Main.storyboard */,
+				1B91077719D6A7AE00025A99 /* Images.xcassets */,
+				1B91077919D6A7AE00025A99 /* LaunchScreen.xib */,
+				1B91076519D6A7AD00025A99 /* Supporting Files */,
+			);
+			path = GokiGameApp;
+			sourceTree = "<group>";
+		};
+		1B91076519D6A7AD00025A99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B91076619D6A7AD00025A99 /* Info.plist */,
+				1B91076719D6A7AD00025A99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B91078319D6A7AE00025A99 /* GokiGameAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B91078619D6A7AE00025A99 /* GokiGameAppTests.m */,
+				1B91078419D6A7AE00025A99 /* Supporting Files */,
+			);
+			path = GokiGameAppTests;
+			sourceTree = "<group>";
+		};
+		1B91078419D6A7AE00025A99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B91078519D6A7AE00025A99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B91076119D6A7AD00025A99 /* GokiGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B91078A19D6A7AE00025A99 /* Build configuration list for PBXNativeTarget "GokiGameApp" */;
+			buildPhases = (
+				1B91075E19D6A7AD00025A99 /* Sources */,
+				1B91075F19D6A7AD00025A99 /* Frameworks */,
+				1B91076019D6A7AD00025A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GokiGameApp;
+			productName = GokiGameApp;
+			productReference = 1B91076219D6A7AD00025A99 /* GokiGameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B91077F19D6A7AE00025A99 /* GokiGameAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B91078D19D6A7AE00025A99 /* Build configuration list for PBXNativeTarget "GokiGameAppTests" */;
+			buildPhases = (
+				1B91077C19D6A7AE00025A99 /* Sources */,
+				1B91077D19D6A7AE00025A99 /* Frameworks */,
+				1B91077E19D6A7AE00025A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B91078219D6A7AE00025A99 /* PBXTargetDependency */,
+			);
+			name = GokiGameAppTests;
+			productName = GokiGameAppTests;
+			productReference = 1B91078019D6A7AE00025A99 /* GokiGameAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B91075A19D6A7AD00025A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Tomohiro Inagaki & Kazuo Ishige";
+				TargetAttributes = {
+					1B91076119D6A7AD00025A99 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					1B91077F19D6A7AE00025A99 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1B91076119D6A7AD00025A99;
+					};
+				};
+			};
+			buildConfigurationList = 1B91075D19D6A7AD00025A99 /* Build configuration list for PBXProject "GokiGameApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B91075919D6A7AD00025A99;
+			productRefGroup = 1B91076319D6A7AD00025A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B91076119D6A7AD00025A99 /* GokiGameApp */,
+				1B91077F19D6A7AE00025A99 /* GokiGameAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B91076019D6A7AD00025A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B91077B19D6A7AE00025A99 /* LaunchScreen.xib in Resources */,
+				1B91077819D6A7AE00025A99 /* Images.xcassets in Resources */,
+				1B91077019D6A7AD00025A99 /* GameScene.sks in Resources */,
+				1B91077619D6A7AD00025A99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B91077E19D6A7AE00025A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B91075E19D6A7AD00025A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B91077319D6A7AD00025A99 /* GameViewController.m in Sources */,
+				1B91076B19D6A7AD00025A99 /* AppDelegate.m in Sources */,
+				1B91076E19D6A7AD00025A99 /* GameScene.m in Sources */,
+				1B91076819D6A7AD00025A99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B91077C19D6A7AE00025A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B91078719D6A7AE00025A99 /* GokiGameAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B91078219D6A7AE00025A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B91076119D6A7AD00025A99 /* GokiGameApp */;
+			targetProxy = 1B91078119D6A7AE00025A99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B91077419D6A7AD00025A99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B91077519D6A7AD00025A99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B91077919D6A7AE00025A99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B91077A19D6A7AE00025A99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B91078819D6A7AE00025A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B91078919D6A7AE00025A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B91078B19D6A7AE00025A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GokiGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B91078C19D6A7AE00025A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GokiGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B91078E19D6A7AE00025A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GokiGameAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GokiGameApp.app/GokiGameApp";
+			};
+			name = Debug;
+		};
+		1B91078F19D6A7AE00025A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GokiGameAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GokiGameApp.app/GokiGameApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B91075D19D6A7AD00025A99 /* Build configuration list for PBXProject "GokiGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B91078819D6A7AE00025A99 /* Debug */,
+				1B91078919D6A7AE00025A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B91078A19D6A7AE00025A99 /* Build configuration list for PBXNativeTarget "GokiGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B91078B19D6A7AE00025A99 /* Debug */,
+				1B91078C19D6A7AE00025A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B91078D19D6A7AE00025A99 /* Build configuration list for PBXNativeTarget "GokiGameAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B91078E19D6A7AE00025A99 /* Debug */,
+				1B91078F19D6A7AE00025A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B91075A19D6A7AD00025A99 /* Project object */;
+}
