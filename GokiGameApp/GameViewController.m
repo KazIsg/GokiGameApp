@@ -8,6 +8,7 @@
 
 #import "GameViewController.h"
 #import "GameScene.h"
+#import "TitleScene.h"
 
 @implementation SKScene (Unarchive)
 
@@ -30,23 +31,26 @@
 
 @implementation GameViewController
 
+/***********************
+ methodName:viewDidLoad
+ Func:storyBoardからインスタンス化され、ロードされた時に呼ばれる
+************************/
 - (void)viewDidLoad
 {
+    /*親クラスのメソッド実行*/
     [super viewDidLoad];
 
-    // Configure the view.
+    /* デバッグコードをON */
     SKView * skView = (SKView *)self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
-    /* Sprite Kit applies additional optimizations to improve rendering performance */
+      //zPositionの描画順序を任意としパフォーマンスを向上させる
     skView.ignoresSiblingOrder = YES;
-    
-    // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+
+    /* SceneをViewに設定 */
+    TitleScene *scene = [TitleScene sceneWithSize:skView.bounds.size];  //指定したサイズのシーンオブジェクトを作成
+    scene.scaleMode = SKSceneScaleModeAspectFill;   //SceneとViewのサイズが異なる場合の表示方法の設定
+    [skView presentScene:scene];                    //ViewにSceneを設定し表示
 }
 
 - (BOOL)shouldAutorotate

@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B08166D19D7ACCE00CC31FD /* ResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B08166C19D7ACCE00CC31FD /* ResultScene.m */; };
+		1B08167119D7BF9B00CC31FD /* GameBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B08167019D7BF9B00CC31FD /* GameBack.png */; };
+		1B08167319D7BFB500CC31FD /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B08167219D7BFB500CC31FD /* Earth.png */; };
+		1B08167519D7BFCF00CC31FD /* Spaceship_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B08167419D7BFCF00CC31FD /* Spaceship_1.png */; };
+		1B08167719D7BFEF00CC31FD /* Meteor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B08167619D7BFEF00CC31FD /* Meteor.png */; };
+		1B08167919D7C01400CC31FD /* Missile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B08167819D7C01400CC31FD /* Missile.png */; };
 		1B91076819D6A7AD00025A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91076719D6A7AD00025A99 /* main.m */; };
 		1B91076B19D6A7AD00025A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91076A19D6A7AD00025A99 /* AppDelegate.m */; };
 		1B91076E19D6A7AD00025A99 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91076D19D6A7AD00025A99 /* GameScene.m */; };
-		1B91077019D6A7AD00025A99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B91076F19D6A7AD00025A99 /* GameScene.sks */; };
 		1B91077319D6A7AD00025A99 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91077219D6A7AD00025A99 /* GameViewController.m */; };
 		1B91077619D6A7AD00025A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B91077419D6A7AD00025A99 /* Main.storyboard */; };
 		1B91077819D6A7AE00025A99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B91077719D6A7AE00025A99 /* Images.xcassets */; };
 		1B91077B19D6A7AE00025A99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B91077919D6A7AE00025A99 /* LaunchScreen.xib */; };
 		1B91078719D6A7AE00025A99 /* GokiGameAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91078619D6A7AE00025A99 /* GokiGameAppTests.m */; };
+		1BEA662A19D6B32600710CAA /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA662919D6B32600710CAA /* TitleScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B08166C19D7ACCE00CC31FD /* ResultScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultScene.m; sourceTree = "<group>"; };
+		1B08166E19D7ACE000CC31FD /* ResultScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultScene.h; sourceTree = "<group>"; };
+		1B08167019D7BF9B00CC31FD /* GameBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBack.png; sourceTree = "<group>"; };
+		1B08167219D7BFB500CC31FD /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
+		1B08167419D7BFCF00CC31FD /* Spaceship_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship_1.png; sourceTree = "<group>"; };
+		1B08167619D7BFEF00CC31FD /* Meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meteor.png; sourceTree = "<group>"; };
+		1B08167819D7C01400CC31FD /* Missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Missile.png; sourceTree = "<group>"; };
 		1B91076219D6A7AD00025A99 /* GokiGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GokiGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B91076619D6A7AD00025A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B91076719D6A7AD00025A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +49,6 @@
 		1B91076A19D6A7AD00025A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1B91076C19D6A7AD00025A99 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		1B91076D19D6A7AD00025A99 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		1B91076F19D6A7AD00025A99 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		1B91077119D6A7AD00025A99 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		1B91077219D6A7AD00025A99 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		1B91077519D6A7AD00025A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +57,8 @@
 		1B91078019D6A7AE00025A99 /* GokiGameAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GokiGameAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B91078519D6A7AE00025A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B91078619D6A7AE00025A99 /* GokiGameAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GokiGameAppTests.m; sourceTree = "<group>"; };
+		1BEA662919D6B32600710CAA /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		1BEA662B19D6B34900710CAA /* TitleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B08166F19D7BEE100CC31FD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1B08167819D7C01400CC31FD /* Missile.png */,
+				1B08167619D7BFEF00CC31FD /* Meteor.png */,
+				1B08167419D7BFCF00CC31FD /* Spaceship_1.png */,
+				1B08167219D7BFB500CC31FD /* Earth.png */,
+				1B08167019D7BF9B00CC31FD /* GameBack.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1B91075919D6A7AD00025A99 = {
 			isa = PBXGroup;
 			children = (
@@ -86,11 +112,15 @@
 		1B91076419D6A7AD00025A99 /* GokiGameApp */ = {
 			isa = PBXGroup;
 			children = (
+				1B08166F19D7BEE100CC31FD /* images */,
 				1B91076919D6A7AD00025A99 /* AppDelegate.h */,
 				1B91076A19D6A7AD00025A99 /* AppDelegate.m */,
+				1BEA662B19D6B34900710CAA /* TitleScene.h */,
+				1BEA662919D6B32600710CAA /* TitleScene.m */,
 				1B91076C19D6A7AD00025A99 /* GameScene.h */,
 				1B91076D19D6A7AD00025A99 /* GameScene.m */,
-				1B91076F19D6A7AD00025A99 /* GameScene.sks */,
+				1B08166E19D7ACE000CC31FD /* ResultScene.h */,
+				1B08166C19D7ACCE00CC31FD /* ResultScene.m */,
 				1B91077119D6A7AD00025A99 /* GameViewController.h */,
 				1B91077219D6A7AD00025A99 /* GameViewController.m */,
 				1B91077419D6A7AD00025A99 /* Main.storyboard */,
@@ -209,7 +239,11 @@
 			files = (
 				1B91077B19D6A7AE00025A99 /* LaunchScreen.xib in Resources */,
 				1B91077819D6A7AE00025A99 /* Images.xcassets in Resources */,
-				1B91077019D6A7AD00025A99 /* GameScene.sks in Resources */,
+				1B08167119D7BF9B00CC31FD /* GameBack.png in Resources */,
+				1B08167319D7BFB500CC31FD /* Earth.png in Resources */,
+				1B08167919D7C01400CC31FD /* Missile.png in Resources */,
+				1B08167719D7BFEF00CC31FD /* Meteor.png in Resources */,
+				1B08167519D7BFCF00CC31FD /* Spaceship_1.png in Resources */,
 				1B91077619D6A7AD00025A99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEA662A19D6B32600710CAA /* TitleScene.m in Sources */,
 				1B91077319D6A7AD00025A99 /* GameViewController.m in Sources */,
 				1B91076B19D6A7AD00025A99 /* AppDelegate.m in Sources */,
+				1B08166D19D7ACCE00CC31FD /* ResultScene.m in Sources */,
 				1B91076E19D6A7AD00025A99 /* GameScene.m in Sources */,
 				1B91076819D6A7AD00025A99 /* main.m in Sources */,
 			);
@@ -422,6 +458,7 @@
 				1B91078C19D6A7AE00025A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B91078D19D6A7AE00025A99 /* Build configuration list for PBXNativeTarget "GokiGameAppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +467,7 @@
 				1B91078F19D6A7AE00025A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
